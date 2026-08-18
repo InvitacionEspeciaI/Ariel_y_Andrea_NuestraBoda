@@ -1661,6 +1661,7 @@
       .lb-nav.prev {
         left: 8px;
       }
+
       .lb-nav.next {
         right: 8px;
       }
@@ -2094,7 +2095,13 @@
           <div class="eyebrow" style="margin-bottom:4px">Acceso Personalizado</div>
           <div class="code" id="passes-title" style="font-size:1.9rem">Pases Reservados 🎟️</div>
           <div class="passes-count">
-            <span class="ticket-icon">🎟️</span>
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"
+              style="color:var(--blue-deep); width:20px; height:20px; margin:0 auto 8px;">
+              <path
+                d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2z" />
+              <path d="M13 5v14" stroke-dasharray="2 2" />
+              <circle cx="9" cy="12" r="1.5" fill="currentColor" />
+            </svg>
             <span class="ticket-num" id="passes-num">2</span>
             <span class="ticket-label">Pases</span>
           </div>
@@ -2146,7 +2153,8 @@
   </div>
 
   <!-- VISOR DE FOTOS A PANTALLA COMPLETA (LIGHTBOX) -->
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de fotos en pantalla completa" hidden>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de fotos en pantalla completa"
+    hidden>
     <button class="lb-close" id="lbClose" aria-label="Cerrar visor">✕</button>
     <button class="lb-nav prev" id="lbPrev" aria-label="Foto anterior">‹</button>
     <div class="lb-content">
@@ -2194,7 +2202,7 @@
       // NUESTRA HISTORIA:
       historia: [
         { anio: "El inicio", icono: "✨", titulo: "Nos conocimos", texto: "Un encuentro que lo cambió todo." },
-        { anio: "El camino", icono: "🌅", titulo: "Nuestros viajes", texto: "Atardeceres y aventuras juntos." },
+        { anio: "El camino", icono: "❤️", titulo: "Nuestros viajes", texto: "Atardeceres y aventuras juntos." },
         { anio: "El sí", icono: "💍", titulo: "La propuesta", texto: "Un sí que nos trajo hasta aquí." }
       ],
 
@@ -2233,7 +2241,7 @@
         mensaje: "Tu presencia es nuestro mejor regalo. Si deseas obsequiarnos algo más, aquí tienes algunas opciones de aporte o sobre digital:",
         linkRegalos: "",
         qr: "qr.jpeg",
-        banco: { titular: "Ariel & Andrea", banco: "Banco Nacional", cuenta: "0000-0000-0000" }
+        banco: { titular: "Ariel & Andrea", banco: "Banco Nacional", cuenta: "701-51308726-3-32" }
       },
 
       confirmarAntes: "12 de septiembre",
